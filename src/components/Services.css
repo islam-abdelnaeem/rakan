@@ -1,0 +1,11 @@
+/* Services.css */
+
+.card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

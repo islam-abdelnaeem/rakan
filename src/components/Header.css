@@ -1,0 +1,121 @@
+/* Ensure the Navbar stays above content */
+.navbar {
+  z-index: 1030;
+}
+
+/* Ensure content below doesn't overlap with fixed Navbar */
+body {
+  padding-top: 70px;
+}
+@media (max-width: 768px) {
+  .ms-auto {
+    background-image: url('../assets/images/IMG-20241110-WA0091.jpg');
+    color: white !important;
+    padding: 25px;
+    background-size: cover;
+    border-radius: 1rem;
+    margin-top: 2rem;
+  }
+}
+
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff ;
+}
+
+.navbar-brand span {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+/* Style for the language toggle button */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #0d6efd;
+}
+
+/* Navbar transition on scroll */
+.navbar-top {
+  transition: background-color 0.3s;
+}
+
+.navbar-scrolled {
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.text-white {
+  color: #ffffff !important;
+  transition: color 0.3s;
+}
+
+.text-blue {
+  color: #007bff !important;
+  transition: color 0.3s;
+}
+
+/* Adjust font size and layout for small screens */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 1rem;  /* Adjust the font size for mobile devices */
+  }
+
+  .navbar-brand span {
+    font-size: 1.2rem;  /* Adjust brand logo text size on small screens */
+  }
+
+  .navbar-toggle {
+    background-color: white;  /* Ensure the toggle button has a good background */
+  }
+  
+  /* Adjust the size of the language toggle button */
+  button {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  /* Adjust navbar container width */
+  .container {
+    width: 100%;
+  }
+}
+
+
+/* Styling for the Dropdown menu */
+  .custom-dropdown {
+    background-color: white !important;
+    z-index: 1050;
+    border: none;
+    position: relative;
+    box-shadow: none;
+      overflow: visible !important;
+      max-height: none !important;
+    
+    
+  }
+  
+
+
+/* Navbar styles */
+.navbar-top {
+  background-color: transparent;
+}
+
+.navbar-scrolled {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.text-blue {
+  color: blue !important;
+}
